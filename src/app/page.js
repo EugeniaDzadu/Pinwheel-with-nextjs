@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
-  return(
+  return (
     <>
-       <h1>Pinwheel</h1>
-    
+      <Link href="/About">Index</Link>
+      <h1>Welcome</h1>
     </>
-  )
+  );
 }
